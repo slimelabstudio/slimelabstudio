@@ -15,6 +15,8 @@ body {
 #social-links a {
     color : white;
     text-decoration: none;
+    font-weight: 700;
+    margin-right: 10px;
 }
 
 .landing {
@@ -26,4 +28,13 @@ body {
     min-width: 200px;
     position:relative;
     top:12rem;
+}
+.landing h1 {
+    font-size: 8rem;
+    font-weight: 900;
+    position: absolute;
+    top:80px;
+    line-height: 190px;
+    z-index: -10;
+    opacity: 0.1;
 }
